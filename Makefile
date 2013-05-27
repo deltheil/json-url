@@ -1,5 +1,5 @@
 override CFLAGS := -Wall -Werror $(CFLAGS)
-LDLIBS = -lcurl -ljson-c
+LDLIBS = -lcurl -ljson
 
 all: json-url
 

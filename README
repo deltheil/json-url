@@ -10,6 +10,6 @@ Usage:
     $ ./json-url  http://foo.com/bar.json
 
 [1]: http://stackoverflow.com/a/16763450/1688185
-[2]: https://github.com/jehiah/json-c
+[2]: https://github.com/json-c/json-c
 
 Copyright (c) 2013 Cédric Deltheil. MIT Licensed.

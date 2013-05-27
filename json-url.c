@@ -67,7 +67,7 @@ done:
     json_tokener_free(ctx.tok);
   }
   if (ctx.obj) {
-    assert(json_object_put(ctx.obj) == 1);
+    json_object_put(ctx.obj);
   }
 
   return rv;
