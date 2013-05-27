@@ -50,7 +50,6 @@ main(int argc, char *argv[])
     goto done;
   }
 
-  /* TODO: print something with the JSON object */
   if ((jerr = json_tokener_get_error(ctx.tok)) != json_tokener_success) {
     rv = 2;
     fprintf(stderr, "json error: %s\n", json_tokener_error_desc(jerr));
@@ -67,6 +66,7 @@ done:
     json_tokener_free(ctx.tok);
   }
   if (ctx.obj) {
+    /* strange name for something that decrements a reference counter :) */
     json_object_put(ctx.obj);
   }
 
