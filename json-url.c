@@ -4,7 +4,7 @@
 #include <assert.h>
 
 #include <curl/curl.h>
-#include <json/json.h>
+#include <json-c/json.h>
 
 #define TEST_URL "http://httpbin.org/get"
 
