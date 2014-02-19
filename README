@@ -3,16 +3,18 @@ json-url - URL transfer w/ progressive JSON parsing
 Sample code that illustrates how to combine libcurl with progressive JSON
 parsing[1].
 
-This is achieved thanks to json-c library[2] - `brew install json-c` on Mac OS X.
+This is achieved thanks to json-c library[2].
 
 Build:
-    $ make CFLAGS=$(pkg-config --cflags json-c) LDFLAGS=$(pkg-config --libs json-c)
+    $ make \
+    CFLAGS=$(pkg-config --cflags json-c) \
+    LDFLAGS=$(pkg-config --libs json-c)
 
 Usage:
     $ ./json-url
     $ ./json-url http://foo.com/big.json
 
 [1]: http://stackoverflow.com/a/16763450/1688185
-[2]: https://github.com/json-c/json-c
+[2]: https://github.com/json-c/json-c - brew install json-c` on Mac OS X.
 
 Copyright (c) 2014 Cédric Deltheil. MIT Licensed.
