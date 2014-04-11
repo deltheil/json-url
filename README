@@ -15,6 +15,6 @@ Usage:
     $ ./json-url http://foo.com/big.json
 
 [1]: http://stackoverflow.com/a/16763450/1688185
-[2]: https://github.com/json-c/json-c - brew install json-c` on Mac OS X.
+[2]: https://github.com/json-c/json-c - `brew install json-c` on Mac OS X.
 
 Copyright (c) 2014 Cédric Deltheil. MIT Licensed.
